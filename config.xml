@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>kk_categorywiseproducts</name>
+    <displayName><![CDATA[Category Wise products]]></displayName>
+    <version><![CDATA[1.0.7]]></version>
+    <description><![CDATA[Displays category wise products in the central column of your homepage.]]></description>
+    <author><![CDATA[Kaviarasan K K]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
