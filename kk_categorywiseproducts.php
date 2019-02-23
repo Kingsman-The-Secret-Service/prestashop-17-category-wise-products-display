@@ -296,6 +296,7 @@ class Kk_CategoryWiseProducts extends Module implements WidgetInterface
             $products[$categoryId]['category'] = $category;
             $products[$categoryId]['categoryLink'] = Context::getContext()->link->getCategoryLink($categoryId);
             $products[$categoryId]['product'] = $this->getProducts($category);
+            $products[$categoryId]['id_language'] = $this->context->language->id;
         }
 
 
