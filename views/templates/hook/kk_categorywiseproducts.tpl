@@ -26,7 +26,7 @@
 {foreach from=$products item="product"}
 <section class="featured-products clearfix">
 	<div class="text-lg-center text-md-center text-xs-center">
-	  	<h1 class="text-uppercase">{$product['category']->name[1]}</h1>
+	  	<h1 class="text-uppercase">{$product['category']->name[$product['id_language']]}</h1>
   	</div>
   	<hr/>
 	<div class="products">
@@ -36,7 +36,7 @@
 	</div>
 
 	<div class="text-lg-right text-md-right text-xs-right">
-		<a class="btn btn-secondary" href="{$product['categoryLink']}">View All {$product['category']->name[1]}</a>
+		<a class="btn btn-secondary" href="{$product['categoryLink']}">  {l s= 'View All ' d='Shop.Theme.Catalog'}{$product['category']->name[1]}</a>
 	</div>
 	<hr/>
 </section>
